@@ -1,0 +1,124 @@
+.note-container{
+    height: 667px;
+    
+    // width: 100%;
+    .note-outer{
+        .editor-outer{
+            height: 100vh !important;
+            // #toolbar-container{
+
+            // }
+            .toolbar {
+                height: 3vh;
+                border: 1px solid #ccc;
+            }
+            .text {
+                border: 1px solid #ccc;
+                height: 97vh;
+
+                // height: 100vh;
+            }
+            .w-e-toolbar{
+                display: flex;
+                justify-content: flex-end;
+                width: 100% !important;
+            }
+        }
+        // .note-header-fixed{
+        //     width: 100%;
+        //     position: fixed;
+        //     .note-header{
+        //         display: flex;
+        //         justify-content: space-between;
+        //         padding-left: 15px;
+        //         padding-right: 20px;
+        //         .note-header-left{
+        //             .note-header-back{
+        //                 width: 24px;
+        //                 height:24px;
+        //             }
+        //         }
+        //         .note-header-right{
+        //             .note-header-revoke{
+        //                 margin-right: 20px;
+        //                 width: 24px;
+        //                 height:24px;
+        //             }
+        //             .note-header-goAhead{
+        //                 margin-right: 20px;
+        //                 width: 24px;
+        //                 height:24px;
+        //             }
+        //             .note-header-confirm{
+        //                 width: 24px;
+        //                 height: 24px;
+        //             }
+        //         }
+        //     }
+        // }
+        // .note-header-outer{
+        //     position: absolute;
+        //     z-index: 10;
+        //     width: 100%;
+        //     .note-header{
+        //         padding: 0 20px;
+        //         display: flex;
+        //         justify-content: space-between;
+        //         align-items: center;
+        //         height:36px;
+        //         .note-header-back{
+        //             width: 20px;
+        //             height:20px;
+        //         }
+        //         .note-header-confirm{
+        //             width: 20px;
+        //             height:20px;
+        //         }
+        //     }
+        // }
+    //     .editor-outer{
+    //         // display: none;
+    // // height: 667px;
+
+    //         // z-index: -1;
+    //         width: 100%;
+    //         // height:667px;
+    //         // top:300px;
+    //         .mytextarea{
+    //             z-index: 1!important;
+    //         }
+    //     }
+    //     .tox-toolbar__group{
+    //         position: relative!important;
+    //         left:273px!important;
+    //     }
+    //     .tox-menubar{
+    //         display: none;
+    //     }
+        .note-tool-outer{
+            position: fixed;
+            bottom:0px;
+            width: 100%;
+            .note-tool{
+                background-color: white;
+                height: 60px;
+                display: flex;
+                justify-content: space-around;
+                .note-tool-item{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    .note-tool-item-pic{
+                        width: 24px;
+                        height:24px;
+                    }
+                    span{
+                        font-size: 10px;
+                        color:#101010 10000%
+                    }
+                }
+            }
+        }
+    }
+}
