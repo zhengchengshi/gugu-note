@@ -1,0 +1,43 @@
+.homepage-header-outer{
+    .homepage-header{
+        width: 100%;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .homepage-header-left{
+            margin-left: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                .homepage-leftsideBar-img{
+                    width: 24px;
+                    height: 24px;
+                }
+            .homepage-header-intro{
+                font-size: 18px;
+                span:nth-child(1){
+                    margin-left: 2px;
+                }
+                span:nth-child(2){
+                    margin-left: 8px;
+                }
+            }
+        }
+        .homepage-header-right{
+            margin-right: 12px;
+            .homepage-setting-btn{
+                width: 35px;
+                height: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .homepage-setting-img{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+    
+}

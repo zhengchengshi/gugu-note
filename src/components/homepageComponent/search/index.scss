@@ -1,0 +1,25 @@
+.homepage-search-outer{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .homepage-search{
+        background-color: white;
+        border-radius: 10px;
+        width: 345px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        .homepage-search-img{
+            margin-left: 8px;
+            width: 20px;
+            height: 20px;
+        }
+        span{
+            color: #848486;
+            font-size: 14px;
+            margin-left: 6px;
+        }
+    }
+}

@@ -1,0 +1,103 @@
+.addTag-outer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(245, 245, 245, 100);
+    .addTag{
+        height: 100%;
+        .addTag-header{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            .addTag-header-back-btn{
+                margin-left: 15px;
+                margin-top: 10px;
+                .addTag-header-back-img{
+                    width: 31px;
+                    height: 31px;
+                }
+            }
+            .addTag-header-title{
+                margin-top: 13px;
+                color:#101010;
+                font-size: 14px;
+            }
+            .addTag-header-addNewTag-btn{
+                margin-right: 25px;
+                margin-top: 13px;
+                .addTag-header-addNewTag-img{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+        .addTag-body-outer{
+            height: calc(100% - 50px);
+            overflow-y: scroll;
+            .addTag-body{
+                width: 100%;
+                overflow-y: scroll;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding-top: 25px;
+                box-sizing: border-box;
+                height: 100%;
+                .addTag-body-tag-item-outer{
+                    position: relative;
+                    .addTag-body-tag-item{
+                        margin-bottom: 15px;
+                        width: 345px;
+                        height: 54px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-radius: 10px;
+                        background-color: white;
+                        .addTag-body-tag-item-left{
+                            display: flex;
+                            align-items: center;
+                            .addTag-body-tag-item-img{
+                                margin-left: 25px;
+                                width: 24px;
+                                height: 24px;
+                            }
+                            span{
+                                color:#606060;
+                                margin-left: 15px;
+                            }
+                        }
+                        .addTag-body-tag-item-choose-btn{
+                            margin-right: 25px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            .addTag-body-tag-item-choose-img{
+                                width: 24px;
+                                height: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .addTag-fixed-footer{
+            width: 100%;
+            position: fixed;
+            bottom: 35px;
+            .addTag-confirm-btn{
+                margin: 0 auto;
+                width: 315px;
+                height: 48px;
+                background-color: #007AFF;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color:white;
+                font-weight: 540;
+            }
+        }
+    }
+}

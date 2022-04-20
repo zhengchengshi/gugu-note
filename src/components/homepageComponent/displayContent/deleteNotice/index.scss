@@ -1,0 +1,67 @@
+@keyframes deleteNoticeSlideIn{
+    0%{
+        transform: translateY(200px)
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes deleteNoticeSlideOut{
+    0%{
+        transform: translateY(0px)
+    }
+    100%{
+        transform: translateY(200px);
+    }
+}
+.hidden{
+    display: none;
+}
+.homepage-deleteNotice-outer{
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    animation: deleteNoticeSlideIn 0.6s;
+    animation-fill-mode:forwards;
+    z-index: 10005;
+    .homepage-deleteNotice{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .homepage-deleteNotice-title{
+            color: #101010;
+            margin-top: 20px;
+        }
+        .homepage-deleteNotice-content{
+            margin-top: 17px;
+            font-size: 14px;
+        }
+        .homepage-deleteNotice-btn{
+            display: flex;
+            justify-content: center;
+            margin-top: 35px;
+            .homepage-deleteNotice-cancel{
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                text-align: center;
+                line-height: 50px;
+                width: 153px;
+                height: 50px;
+                margin-right: 15px;
+            }
+            .homepage-deleteNotice-delete{
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                text-align: center;
+                line-height: 50px;
+                width: 153px;
+                height: 50px;
+                color: #FF3A30;
+            }
+        }
+    }
+}

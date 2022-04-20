@@ -1,0 +1,29 @@
+.hidden{
+    display: none;
+}
+.homepage-noteItem-setting-outer{
+    width: 120px;
+    // height: 208px;
+    background-color: white;
+    z-index: 10005;
+    position: absolute;
+    right: 15px;
+    // top: 25px;
+    // bottom: 55px;
+    border-radius: 10px;
+    .homepage-noteItem-setting-item{
+        height: 52px;
+        display: flex;
+        align-items: center;
+        color: #101010;
+        span{
+            margin-left: 20px;
+        }
+        
+    }
+    .homepage-noteItem-setting-item:nth-child(3){
+        color: #FF3A30 !important;
+
+    }
+
+}

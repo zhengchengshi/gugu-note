@@ -1,0 +1,68 @@
+.recording-container{
+    width: 100%;
+    z-index: 1000;
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+  
+    #test{
+        width: 100%;
+        height: 100px;
+        background-color: pink;
+    }
+    .recording-outer{
+        height:350px;
+        width: 100%;
+        .recording-back{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            #recording-back-btn{
+                width: 30px;
+                height:30px;
+                margin-left: 16px;
+            }
+        }
+        .recording-content{
+            width: 100%;
+            height: 290px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            span{
+                color:#606060;
+                font-size: 14px;
+                margin-top: 78px;
+            }
+            #virtual-btn{
+                width: 100px;
+                height:100px;
+                position: absolute;
+                top:109px;
+            }
+            .recording-btn{
+                
+                width: 100px;
+                height:100px;
+                background-color:#0C84FF;
+                border-radius: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 12px;
+                #recording-btn-icon{
+                    width: 50px;
+                    height:50px;
+                }
+            }
+        }
+    }
+}

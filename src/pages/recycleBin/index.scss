@@ -1,0 +1,26 @@
+.recyclebin-outer{
+    .recyclebin{
+        .recyclebin-header{
+            width: 100%;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 100);
+            display: flex;
+            align-items: center;
+            
+            .recyclebin-header-back-img{
+                height: 31px;
+                width: 31px;
+                margin-left: 20px;
+            }
+            span:nth-child(2){
+                margin-left: 118px;
+                font-size: 16px;
+            }
+            span:nth-child(3){
+                margin-left: 74px;
+                color: rgba(255, 58, 48, 100);
+                font-size: 16px;
+            }
+        }
+    }
+}

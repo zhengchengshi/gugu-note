@@ -1,0 +1,11 @@
+.hidden{
+    display: none;
+}
+.global-mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #101010;
+    opacity: 0.5;
+    z-index: 10000;
+}
